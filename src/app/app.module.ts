@@ -13,6 +13,7 @@ import { RadiobuttonComponent } from './components/radiobutton/radiobutton.compo
 import { CheckboxComponent } from './components/checkbox/checkbox.component';
 import { DynamicFieldDirective } from './components/dynamic-field/dynamic-field.directive';
 import { DynamicFormComponent } from './components/dynamic-form/dynamic-form.component';
+import { CustomRadioChipComponent } from './components/custom-radio-chip/custom-radio-chip.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DynamicFormComponent } from './components/dynamic-form/dynamic-form.com
     RadiobuttonComponent,
     CheckboxComponent,
     DynamicFieldDirective,
-    DynamicFormComponent
+    DynamicFormComponent,
+    CustomRadioChipComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +41,8 @@ import { DynamicFormComponent } from './components/dynamic-form/dynamic-form.com
     SelectComponent,
     DateComponent,
     RadiobuttonComponent,
-    CheckboxComponent
+    CheckboxComponent,
+    CustomRadioChipComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

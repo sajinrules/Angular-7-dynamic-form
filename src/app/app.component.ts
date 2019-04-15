@@ -99,7 +99,14 @@ export class AppComponent {
     {
       type: "button",
       label: "Save"
-    }
+    },
+    {
+      type: "customradio",
+      label: "interest",
+      name: "interest",
+      options: ["torque", "bhp", "rpm"],
+      value: "torque"
+    },
   ];
   submit() {
     console.log("submit:", this.form.value);
